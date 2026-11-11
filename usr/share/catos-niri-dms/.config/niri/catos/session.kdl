@@ -21,4 +21,6 @@ debug {
 }
 
 spawn-at-startup "xwayland-satellite"
+// The dms CLI is retained by Dux. Do not also enable dms.service globally:
+// Niri profiles share the same graphical-session.target across Shell variants.
 spawn-at-startup "dms" "run" "--session"

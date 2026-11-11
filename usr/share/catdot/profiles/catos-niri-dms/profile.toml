@@ -1,13 +1,13 @@
 schema = 4
-name = "CatOS Niri DMS"
-description = "Complete CatOS Niri desktop powered by Dank Material Shell"
+name = "CatOS Niri Dux"
+description = "Complete CatOS Niri desktop powered by Dux Shell"
 
 packages = [
   "niri",
   "xdg-desktop-portal-gtk",
   "xdg-desktop-portal-gnome",
   "gnome-keyring",
-  "dms-shell",
+  "dux-shell",
   "catos-niri-utils",
   "matugen",
   "adw-gtk-theme",
